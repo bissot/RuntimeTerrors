@@ -1,0 +1,51 @@
+.calendar{
+	align-self: center;
+}
+
+header{
+	text-align: center;
+	background-color: #C0392B ;
+}
+.timeSlot{
+	border: 1px solid black;
+}
+
+.month,.week{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 40px;
+}
+td{
+	width: 150px;
+}
+.time{
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center; 
+}
+
+.timeSlot{
+	height: 40px;
+}
+.timeSlot:hover{
+	background-color: #40E0D0;
+}
+.calendarRow{
+	border-spacing: 150px 150px;
+}
+table{
+	 border-collapse: separate;
+	 padding-left: 8%;
+}
+.evenRow{
+	background-color: #FFA07A;
+	border-color: #FFA07A;
+}
+
+.oddRow{
+	background-color: #E9967A;
+	border-color: #E9967A;
+}
+body{
+	background-color: #F5B7B1;
+}
