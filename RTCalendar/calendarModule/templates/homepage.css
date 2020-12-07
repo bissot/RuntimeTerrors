@@ -35,7 +35,8 @@ td{
 }
 table{
 	 border-collapse: separate;
-	 padding-left: 8%;
+	 padding-left: 5%;
+	 width: 90%
 }
 .evenRow{
 	background-color: #FFA07A;
