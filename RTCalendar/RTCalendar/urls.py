@@ -20,5 +20,6 @@ urlpatterns = [
     path('', include('calendarModule.urls')),
     path('calendarModule/login/', include('calendarModule.urls')),
     path('calendarModule/meetings/', include('calendarModule.urls')),
+    path('calendarModule/form/', include('calendarModule.urls')),
     path('admin/', admin.site.urls),
 ]

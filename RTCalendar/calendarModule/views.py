@@ -10,3 +10,6 @@ def login(request):
     
 def meetings(request):
     return render(request, 'calendarModule/meetings.html')
+    
+def form(request):
+    return render(request, 'calendarModule/form.html')
