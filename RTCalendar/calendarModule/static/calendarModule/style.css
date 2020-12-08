@@ -28,7 +28,13 @@ td{
 	height: 40px;
 }
 .timeSlot:hover{
-	background-color: #40E0D0;
+	background-color:white;
+}
+.occupied:hover {
+	background-color: red;
+}
+.free:hover{
+	background-color: green;
 }
 .calendarRow{
 	border-spacing: 150px 150px;
